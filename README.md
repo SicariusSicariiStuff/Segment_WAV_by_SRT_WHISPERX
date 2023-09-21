@@ -17,4 +17,7 @@ BULK processing, spliting ALL *.wav files in the same dir, based on SRT files wi
 segment_WAV_by_SRT.py --all
 ```
 For example, you have the files test1.wav, test1.srt, test2.wav, test2.srt... etc...
---all will split ALL of them, and create folders with each speaker based on the SRT file from WHISPERX.
+```shell
+--all
+```
+will split ALL of them, and create folders with each speaker based on the SRT file from WHISPERX.
