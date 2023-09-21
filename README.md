@@ -6,6 +6,11 @@ Usage:
 ```shell
 segment_WAV_by_SRT.py WAV_file.wav SRT_file.srt 
 ```
+```shell
+segment_WAV_by_SRT.py some_video.mp4 SRT_file.srt 
+```
+
+
 BULK processing, spliting ALL *.wav files in the same dir, based on SRT files with the same names:
 
 ```shell
